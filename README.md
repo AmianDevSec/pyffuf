@@ -135,7 +135,7 @@ sudo apt install ffuf -y
 ### One-line installer (recommended)
 
 ```bash
-git clone https://github.com/<you>/pyffuf.git
+git clone https://github.com/AmianDevSec/pyffuf.git
 cd pyffuf
 chmod +x setup.sh
 ./setup.sh
@@ -279,7 +279,7 @@ cat pyffuf_out/target.htb_common_*_*.raw.txt
 
 ## Differences from PyBuster (gobuster wrapper)
 
-If you also use **[PyBuster](https://github.com/<you>/pybuster)**, here's what changed and why:
+If you also use **[PyBuster](https://github.com/AmianDevSec/pybuster)**, here's what changed and why:
 
 | Aspect | PyBuster (gobuster) | PyFfuf (ffuf) | Why |
 |---|---|---|---|
@@ -343,7 +343,7 @@ MIT — see [LICENSE](LICENSE).
 
 - **[ffuf](https://github.com/ffuf/ffuf)** by Joona Hoikkala — the actual engine.
 - Built out of the very real frustration of editing `-w` fifteen times in one engagement.
-- Sibling project: **[PyBuster](https://github.com/<you>/pybuster)** — the same idea, for gobuster.
+- Sibling project: **[PyBuster](https://github.com/AmianDevSec/pybuster)** — the same idea, for gobuster.
 
 <div align="center">
 
